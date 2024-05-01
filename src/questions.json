@@ -1,0 +1,108 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "What is the capital of France?",
+      "options": ["Paris", "Berlin", "Madrid", "Rome"],
+      "correct_answer": "Paris",
+      "amount": 500
+    },
+    {
+      "id": 1,
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Earth", "Mars", "Venus", "Jupiter"],
+      "correct_answer": "Mars",
+      "amount": 1000
+    },
+    {
+      "id": 2,
+      "question": "Who wrote the play 'Romeo and Juliet'?",
+      "options": [
+        "William Shakespeare",
+        "Jane Austen",
+        "Charles Dickens",
+        "Mark Twain"
+      ],
+      "correct_answer": "William Shakespeare",
+      "amount": 2000
+    },
+    {
+      "id": 3,
+      "question": "What is the chemical symbol for water?",
+      "options": ["H2O", "CO2", "O2", "N2"],
+      "correct_answer": "H2O",
+      "amount": 4000
+    },
+    {
+      "id": 4,
+      "question": "Which famous scientist developed the theory of relativity?",
+      "options": [
+        "Isaac Newton",
+        "Albert Einstein",
+        "Marie Curie",
+        "Galileo Galilei"
+      ],
+      "correct_answer": "Albert Einstein",
+      "amount": 8000
+    },
+    {
+      "id": 5,
+      "question": "What is the largest mammal on Earth?",
+      "options": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+      "correct_answer": "Blue Whale",
+      "amount": 16000
+    },
+    {
+      "id": 6,
+      "question": "Which country is known for the Great Wall?",
+      "options": ["India", "China", "Japan", "Egypt"],
+      "correct_answer": "China",
+      "amount": 32000
+    },
+    {
+      "id": 7,
+      "question": "Who painted the 'Mona Lisa'?",
+      "options": [
+        "Vincent van Gogh",
+        "Leonardo da Vinci",
+        "Pablo Picasso",
+        "Salvador Dalí"
+      ],
+      "correct_answer": "Leonardo da Vinci",
+      "amount": 64000
+    },
+    {
+      "id": 8,
+      "question": "What gas do plants absorb during photosynthesis?",
+      "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
+      "correct_answer": "Carbon dioxide",
+      "amount": 125000
+    },
+    {
+      "id": 9,
+      "question": "Which musical instrument has black and white keys?",
+      "options": ["Guitar", "Violin", "Piano", "Flute"],
+      "correct_answer": "Piano",
+      "amount": 250000
+    },
+    {
+      "id": 10,
+      "question": "Who is the author of 'To Kill a Mockingbird'?",
+      "options": [
+        "J.K. Rowling",
+        "Harper Lee",
+        "George Orwell",
+        "F. Scott Fitzgerald"
+      ],
+      "correct_answer": "Harper Lee",
+      "amount": 500000
+    },
+    {
+      "id": 11,
+      "question": "What is the currency of Japan?",
+      "options": ["Yen", "Euro", "Dollar", "Pound"],
+      "correct_answer": "Yen",
+      "amount": 1000000
+    }
+  ]
+}

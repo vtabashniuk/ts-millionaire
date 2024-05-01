@@ -1,0 +1,128 @@
+@import "/src/styles/colors";
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: $gameBackgroundColor;
+
+  @media screen and (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+}
+
+.burgerMenu {
+  display: flex;
+  justify-content: end;
+  padding: 16px 16px 16px 0;
+}
+
+.sideBar {
+  position: absolute;
+  top: 56px;
+  display: grid;
+  align-items: center;
+  height: calc(100vh - 56px);
+  width: 100vw;
+  padding-top: calc((166px / 900px) * 100vh - 56px);
+  padding-bottom: calc((166px / 900px) * 100vh);
+  background-color: inherit;
+
+  @media screen and (min-width: 768px) {
+    position: static;
+    height: 100vh;
+    width: 100%;
+    background-color: $whiteColor;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  @media screen and (min-width: 1180px) {
+    padding-top: calc((166px / 900px) * 100vh);
+    padding-bottom: calc((166px / 900px) * 100vh);
+  }
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  height: calc(100vh - 56px);
+  padding-bottom: 24px;
+
+  @media screen and (min-width: 768px) {
+    grid-row: 1 / 2;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: calc((122px / 900px) * 100vh);
+    height: 100vh;
+  }
+}
+
+.question {
+  font-size: 18px;
+  text-align: center;
+}
+
+.answersList {
+  display: grid;
+  grid-template-rows: auto;
+  row-gap: 8px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 14px;
+  list-style-type: none;
+
+  @media screen and (min-width: 568px) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    align-self: end;
+  }
+
+  & > .answerListItem {
+    counter-increment: list-counter;
+    padding: 20px calc((40px / 288px) * 100vw);
+    background-image: url("../../img/svg/Inactive.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    @media screen and (min-width: 568px) {
+      padding: 14px calc((68px / 1064px) * 100vw);
+    }
+
+    @media screen and (min-width: 768px) {
+      padding: 14px calc((42px / 1064px) * 100vw);
+
+      &:hover {
+        background-image: url("../../img/svg/Hover.svg");
+      }
+    }
+
+    @media screen and (min-width: 1180px) {
+      padding: 24px calc((42px / 1064px) * 100vw);
+    }
+
+    &.selected {
+      background-image: url("../../img/svg/Selected.svg");
+    }
+
+    &.correct {
+      background-image: url("../../img/svg/Correct.svg");
+    }
+
+    &.wrong {
+      background-image: url("../../img/svg/Wrong.svg");
+    }
+
+    &.disabled {
+      pointer-events: none;
+    }
+
+    &::before {
+      content: counter(list-counter, upper-latin) "";
+      margin-right: 8px;
+      color: $hoverStartButtonColor;
+      font-weight: 600;
+    }
+  }
+}

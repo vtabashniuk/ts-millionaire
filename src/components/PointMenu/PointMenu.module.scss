@@ -1,0 +1,43 @@
+@import "/src/styles/colors";
+
+.pointList {
+  display: grid;
+  grid-template-rows: 1fr;
+  row-gap: 8px;
+  width: 100%;
+  list-style: none;
+
+  @media screen and (min-width: 568px) and (max-width: 767px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  & > .pointListItem {
+    box-sizing: border-box;
+    padding: 8px 24px;
+    background-image: url("../../img/svg/InactivePoints.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+      padding: 4px 24px;
+      font-size: 12px;
+    }
+
+    @media screen and (min-width: 1180px) {
+      font-size: 20px;
+    }
+
+    &.active {
+      background-image: url("../../img/svg/ActivePoints.svg");
+      color: $startButtonColor;
+    }
+
+    &.earned {
+      background-image: url("../../img/svg/Earned.svg");
+      color: $earnedPointsColor;
+    }
+  }
+}

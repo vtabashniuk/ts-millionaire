@@ -1,0 +1,11 @@
+@import "colors";
+
+@mixin fontFamily($font-weight: 600, $font-size: 32px) {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: $font-weight;
+  font-style: normal;
+  font-size: $font-size;
+  line-height: 1.16;
+  color: $primaryTextColor;
+}

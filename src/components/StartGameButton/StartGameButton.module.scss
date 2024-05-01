@@ -1,0 +1,31 @@
+@import "/src/styles/colors";
+@import "/src/styles/mixins";
+
+.button {
+  @include fontFamily($font-size: 14px);
+  display: block;
+  height: 48px;
+  max-width: 288px;
+  padding: 16px 0;
+  border-radius: 8px;
+  background-color: $startButtonColor;
+  color: $whiteColor;
+  text-align: center;
+  text-decoration: none;
+
+  &:active {
+    background-color: $pressedStartButtonColor;
+  }
+
+  @media screen and (min-width: 768px) {
+    height: 64px;
+    max-width: 296px;
+    padding: 21px 0;
+    border-radius: 12px;
+    font-size: 20px;
+
+    &:hover {
+      background-color: $hoverStartButtonColor;
+    }
+  }
+}
