@@ -1,8 +1,16 @@
-import PropTypes from "prop-types";
+import React, { FC, ReactElement } from "react";
 import icons from "img/svg/icons.svg";
 import styles from "./BurgerMenu.module.scss";
 
-export const BurgerMenu = ({ isOpen, onClick }) => {
+type BurgerMenuProps = {
+  isOpen?: boolean;
+  onClick?: () => void;
+};
+
+export const BurgerMenu: FC<BurgerMenuProps> = ({
+  isOpen = false,
+  onClick = () => {},
+}): ReactElement => {
   return (
     <button
       type="button"
@@ -11,7 +19,7 @@ export const BurgerMenu = ({ isOpen, onClick }) => {
       aria-expanded="false"
       aria-controls="mobile-menu"
       data-menu-button
-      onClick={() => onClick()}
+      onClick={onClick}
     >
       <svg className={styles.icon}>
         {isOpen ? (
@@ -28,14 +36,4 @@ export const BurgerMenu = ({ isOpen, onClick }) => {
       </svg>
     </button>
   );
-};
-
-BurgerMenu.defaultProps = {
-  isOpen: false,
-  onClick: () => {},
-};
-
-BurgerMenu.propTypes = {
-  isOpen: PropTypes.bool,
-  onClick: PropTypes.func,
 };

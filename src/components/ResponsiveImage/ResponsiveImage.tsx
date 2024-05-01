@@ -1,8 +1,8 @@
-import { useContext } from "react";
+import React, { FC, ReactElement, useContext } from "react";
 import { MobileContext } from "Context";
 import { mobileImages, desktopImages } from "img";
 
-export const ResponsiveImage = () => {
+export const ResponsiveImage: FC = (): ReactElement => {
   const isMobile = useContext(MobileContext);
   const images = isMobile ? mobileImages : desktopImages;
 
