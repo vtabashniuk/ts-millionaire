@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/ts-millionaire/static/css/main.0ab8da3b.css",
+    "main.js": "/ts-millionaire/static/js/main.0a891e0b.js",
+    "static/media/hand_2@3x.png": "/ts-millionaire/static/media/hand_2@3x.3c0917200c199c5ccff9.png",
+    "static/media/hand_2@2x.png": "/ts-millionaire/static/media/hand_2@2x.75fdbc88eea5bf4649bf.png",
+    "static/media/hand_1@3x.png": "/ts-millionaire/static/media/hand_1@3x.536ef7e17dad58ee7abc.png",
+    "static/media/hand_2@3x.webp": "/ts-millionaire/static/media/hand_2@3x.c53e0cc1b0267709b839.webp",
+    "static/media/hand_2@1x.png": "/ts-millionaire/static/media/hand_2@1x.db4d6f4e02e7ae1edee3.png",
+    "static/media/hand_1@2x.png": "/ts-millionaire/static/media/hand_1@2x.972b072b06ba75c74608.png",
+    "static/media/hand_2@2x.webp": "/ts-millionaire/static/media/hand_2@2x.dbdf71a3c51595b82598.webp",
+    "static/media/hand_1@3x.webp": "/ts-millionaire/static/media/hand_1@3x.56a8c3eb8ba54613d863.webp",
+    "static/media/hand_2@1x.webp": "/ts-millionaire/static/media/hand_2@1x.73a7fc8b5c3eef46245f.webp",
+    "static/media/hand_1@2x.webp": "/ts-millionaire/static/media/hand_1@2x.b4c1e1da409be648fd1d.webp",
+    "static/media/hand_1@1x.webp": "/ts-millionaire/static/media/hand_1@1x.d9e93db350af9b086231.webp",
+    "static/media/icons.svg": "/ts-millionaire/static/media/icons.0f2e4ad6d27a070b9ae8793f395008bc.svg",
+    "index.html": "/ts-millionaire/index.html",
+    "static/media/ActivePoints.svg": "/ts-millionaire/static/media/ActivePoints.0952f8e40905a466a737.svg",
+    "static/media/Earned.svg": "/ts-millionaire/static/media/Earned.01c0dace72f9972c3836.svg",
+    "static/media/InactivePoints.svg": "/ts-millionaire/static/media/InactivePoints.01c0dace72f9972c3836.svg",
+    "static/media/Correct.svg": "/ts-millionaire/static/media/Correct.d14cbb431dc4b78eda32.svg",
+    "static/media/Selected.svg": "/ts-millionaire/static/media/Selected.69d023517a556f2d1583.svg",
+    "static/media/Wrong.svg": "/ts-millionaire/static/media/Wrong.67002ad7d0fd2cfbf285.svg",
+    "static/media/Hover.svg": "/ts-millionaire/static/media/Hover.2eb8d04ac1b7e938f0f0.svg",
+    "static/media/Inactive.svg": "/ts-millionaire/static/media/Inactive.bdbafea43bb9a94870c7.svg",
+    "main.0ab8da3b.css.map": "/ts-millionaire/static/css/main.0ab8da3b.css.map",
+    "main.0a891e0b.js.map": "/ts-millionaire/static/js/main.0a891e0b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ab8da3b.css",
+    "static/js/main.0a891e0b.js"
+  ]
+}
